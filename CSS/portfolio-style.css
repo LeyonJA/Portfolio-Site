@@ -1,0 +1,57 @@
+body {
+  font: 1em sans-serif;
+}
+
+.hwrapper {
+  display:grid;
+  grid-template-columns: 20% 80%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: : 5px;
+}
+
+.name {
+  text-align: right;
+  padding: 5px;
+  line-height: 5px;
+}
+
+.bg_banner {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/blue-tech.jpg");
+}
+
+.flare {
+  color: darkgrey;
+}
+
+.featured_container {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.featured_thumbnail {
+  text-align: center;
+  padding: .5em;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 2.5em;
+  color: royalblue;
+}
+
+.featured_head {
+  font-weight: bold;
+  color: #7d97ad;
+}
+
+.description {
+  color: #2d3c49;
+}
